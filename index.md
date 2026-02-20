@@ -38,7 +38,7 @@ Location of the portable DIMM close to the AuxTel (Courtesy Kshitija Kelkar)
 Google Earth image of Cerro Pachón showing the location of the Portable DIMM
 ```
 
-As shown in the previous figure, the portable DIMM is optimally positioned for the prevailing North-North-East winds. However, it should be noted that the AuxTel dome may introduce mechanical turbulence when the wind originates from the West or South-West.
+As shown in the previous photos, the portable DIMM is optimally positioned for the prevailing North-North-East winds. However, it should be noted that the AuxTel dome may introduce mechanical turbulence when the wind originates from the West or South-West.
 
 ## Characterizing Wind-Induced Effects on DIMM Seeing
 
@@ -60,7 +60,7 @@ Seeing measurements from both DIMMs (upper plot) and the wind speed and directio
 
 We see that both DIMMs measurements are compatible and even the short time scale seeing variations are seen by both devices.
 
-In the following fifgure, we plot the difference between DIMM-1 and DIMM-2 seeing measurements as a function of the wind direction. The wind speed is color-coded.
+In the following fifgure, we plot the difference between $\text{DIMM}_1$ and $\text{DIMM}_2$ seeing measurements as a function of the wind direction. The wind speed is color-coded.
 The wind is blowing from the North-North-East, with speed varying from 5.6 to 10 m/s.
 
 ```{figure} _static/dimm_diff_polar_2025-11-27-2025-11-28.png
@@ -75,7 +75,7 @@ We conclude that for this range of wind speeds and directions, both DIMMs measur
 ```{figure} _static/dimm_1-dimm_2-Vs-wind_res_3min_2025-11-27-2025-11-28.png
 :figclass: technote-wide-content
 
-Difference between DIMM-1 and DIMM-2 as a function of wind speed (left) and histogram of $\text{DIMM}_{1} - \text{DIMM}_2$.
+Difference between $\text{DIMM}_1$ and $\text{DIMM}_2$ as a function of wind speed (left) and histogram of $\text{DIMM}_{1} - \text{DIMM}_2$ (right).
 ```
 
 ### Wind speed lower than 4 m/s mainly from the North-North-East
@@ -101,7 +101,7 @@ Polar plot of $\text{DIMM}_{1} - \text{DIMM}_2$ as a function of the wind direct
 ```{figure} _static/DIMM-1_DIMM-2_polar_2025-12-03-2025-12-03.png
 :figclass: technote-wide-content
 
-Polar plot of DIMM-1 and DIMM-2 separately as a function of the wind direction. The wind speed is indicated by the color scale.
+Polar plot of $\text{DIMM}_1$ and $\text{DIMM}_2$ separately as a function of the wind direction. The wind speed is indicated by the color scale.
 ```
 
 In the next figure we plot the difference between both DIMMs seeing measurement as a function of wind speed (left). We also plot the histogram of the difference between both DIMMs (right).
@@ -109,7 +109,7 @@ In the next figure we plot the difference between both DIMMs seeing measurement 
 ```{figure} _static/dimm_1-dimm_2-Vs-wind_res_3min_2025-12-03-2025-12-03.png
 :figclass: technote-wide-content
 
-Difference between DIMM-1 and DIMM-2 as a function of wind speed (left) and histogram of $\text{DIMM}_{1} - \text{DIMM}_2$.
+Difference between DIMM-1 and DIMM-2 as a function of wind speed (left) and histogram of $\text{DIMM}_{1} - \text{DIMM}_2$ (right).
 ```
 
 We see that the difference $(\text{DIMM}_{1} - \text{DIMM}_{2})$ is much more scattered than in the previous high-wind regime (wind speed > 4 m/s) with a possible anti-correlation between $(\text{DIMM}_{1} - \text{DIMM}_{2})$  and the wind speed for wind speed between 1.5 and 4 m/s. We also clearly see a change of behavior around 1 m/s.
@@ -145,7 +145,66 @@ Polar plot of $\text{DIMM}_{1}$ and $\text{DIMM}_{2}$ separately as a function o
 ```{figure} _static/dimm_1-dimm_2-Vs-wind_res_3min_2025-12-04-2025-12-04.png
 :figclass: technote-wide-content
 
-Difference between DIMM-1 and DIMM-2 as a function of wind speed (left) and histogram of $\text{DIMM}_{1} - \text{DIMM}_2$.
+Difference between DIMM-1 and DIMM-2 as a function of wind speed (left) and histogram of $\text{DIMM}_{1} - \text{DIMM}_2$ (right).
 ```
 
 Here again we distinguish 2 regimes, the first one at low wind speed (<4 m/s)>) with a large difference between both DIMMs measurements and the second one at high wind speed with a much better agreement (with DIMM_1 slightly larger than DIMM_2 though) and independent of the wind speed. 
+
+### Low wind speed and wind changing direction
+
+In the following we have selected a night where the wind speed is low (<2.7 m/s)>) and is changing direction. The wind is blowing from the South mat the beginniong of the night, then almost stops and turn to the North.
+
+In the following figure we plot the seeing measurements from both DIMMs (upper plot) and the wind speed and direction (lower plot) a function of time.
+
+```{figure} _static/dimm-1_dimm2-wind_2025-12-29-2025-12-29.png
+:figclass: technote-wide-content
+ 
+Seeing measurements from both DIMMs (upper plot) and the wind speed and direction (lower plot) a function of time. The length of the arrows are proportional to the wind speed and their orientations indicate the wind direction (North is up).
+```
+
+We see that there is a large discrepancy between $\text{DIMM}_{1}$ and $\text{DIMM}_{2}$  measurements independantely of the wind direction. 
+
+The following figures are the polar plots for $(\text{DIMM}_{1} - \text{DIMM}_{2})$ and $\text{DIMM}_{1}$, $\text{DIMM}_{2}$ separately.
+
+```{figure} _static/dimm_diff_polar_2025-12-29-2025-12-29.png
+:figclass: technote-wide-content
+
+Polar plot of $\text{DIMM}_{1} - \text{DIMM}_2$ as a function of the wind direction. The wind speed is indicated by the color scale.
+```
+
+```{figure} _static/DIMM-1_DIMM-2_polar_2025-12-29-2025-12-29.png
+:figclass: technote-wide-content
+
+Polar plot of $\text{DIMM}_{1}$ and $\text{DIMM}_{2}$ separately as a function of the wind direction. The wind speed is indicated by the color scale.
+```
+ And finally, the difference between both DIMMs seeing measurement as a function of wind speed (left) and the histogram of the difference between both DIMMs (right).
+
+```{figure} _static/dimm_1-dimm_2-Vs-wind_res_3min_2025-12-29-2025-12-29.png
+:figclass: technote-wide-content
+
+Difference between DIMM-1 and DIMM-2 as a function of wind speed (left) and histogram of $\text{DIMM}_{1} - \text{DIMM}_2$ (right).
+```
+
+### Counter example
+
+Between Novenber 2025 and January 2026, we have carefully monitored both DIMM and we have observed the same pattern with both DIMMs giving compatible measurements for wind speed larger than 4 / 4.5 m/s and $\text{DIMM}_1$ systematically giving a higher seeing value than $\text{DIMM}_2$ for higher wind speed. During this whole period, we have found only one single counter example where we saw a discrepancy for wind speed > 5m/s and wind blowing from the South. This is illustrated on the following figure.
+
+```{figure} _static/dimm-1_dimm2-wind_2026-01-02-2026-01-02.png
+:figclass: technote-wide-content
+ 
+Seeing measurements from both DIMMs (upper plot) and the wind speed and direction (lower plot) a function of time. The length of the arrows are proportional to the wind speed and their orientations indicate the wind direction (North is up).
+```
+
+## Conclusions
+
+* **Wind Speed Dependency:** A clear divergence between $\text{DIMM}_1$ and $\text{DIMM}_2$ seeing measurements is established for wind speeds below **4.0–4.5 m/s**. This effect appears to manifest independently of wind direction; however, it should be noted that due to the prevailing wind patterns on Cerro Pachón, testing has primarily been restricted to North and South vectors.
+
+* **Consistency with LSSTCam:** Based on the findings in [sitcomtn-169](https://sitcomtn-169.lsst.io/), we conclude that the portable $\text{DIMM}_2$ measurements are more consistent with the PSF FWHM measured on **LSSTCam** data.
+
+* **Hypotheses for Divergence:** The physical origin of this discrepancy remains under investigation, with two primary hypotheses currently being considered:
+    1. **Internal Dome Turbulence:** A localized turbulent regime within the dome housing the tower DIMM, potentially driven by thermal gradients.
+    2. **Orographic Effects:** Turbulence induced by the specific cliff topography and terrain configuration of the Cerro Pachón summit.
+
+
+
+The second hypothesis (**orographic effect**) appears less plausible, as it would be difficult to account for an identical impact on measurements when the wind originates from opposite directions.
