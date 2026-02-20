@@ -187,7 +187,7 @@ Difference between DIMM-1 and DIMM-2 as a function of wind speed (left) and hist
 
 ### Counter example
 
-Between Novenber 2025 and January 2026, we have carefully monitored both DIMM and we have observed the same pattern with both DIMMs giving compatible measurements for wind speed larger than 4 / 4.5 m/s and $\text{DIMM}_1$ systematically giving a higher seeing value than $\text{DIMM}_2$ for higher wind speed. During this whole period, we have found only one single counter example where we saw a discrepancy for wind speed > 5m/s and wind blowing from the South. This is illustrated on the following figure.
+Between Novenber 2025 and January 2026, we have carefully monitored both DIMMs and we have observed the same pattern with both DIMMs giving compatible measurements for wind speed larger than 4 / 4.5 m/s and $\text{DIMM}_1$ systematically giving a higher seeing value than $\text{DIMM}_2$ for lower wind speed. During this whole period, we have found only one single counter example where we saw a discrepancy for wind speed > 5m/s and wind blowing from the South. This is illustrated on the following figure.
 
 ```{figure} _static/dimm-1_dimm2-wind_2026-01-02-2026-01-02.png
 :figclass: technote-wide-content
